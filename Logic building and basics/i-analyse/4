@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+  int ss,team,cal=0,call;
+  printf("Enter the number of students in the class\n");
+  scanf("%d",&ss);
+  printf("Enter the number of teams\n");
+  scanf("%d",&team);
+  cal=ss/team;
+  call=ss%team;
+  printf("The number of students in each team is %d and the number of students left out is %d",cal,call);
+    return 0;
+}
